@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="7" total="10" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[mouse hover and click on desktop[[ChromeDriver: chrome on WINDOWS (e827fcaa074c7e423519f610fb8a178d)] -> link text: Desktops]]]>
+    </line>
+    <line>
+      <![CDATA[verify desktop text[[ChromeDriver: chrome on WINDOWS (e827fcaa074c7e423519f610fb8a178d)] -> xpath: //h2[contains(text(),'Desktops')]]]]>
+    </line>
+    <line>
+      <![CDATA[laptop and notebooks[[ChromeDriver: chrome on WINDOWS (732d17322df46f6f97ac8833087a8d00)] -> link text: Laptops & Notebooks]]]>
+    </line>
+    <line>
+      <![CDATA[click on my account[[ChromeDriver: chrome on WINDOWS (c17003bbb2b685407522537a3909bcb1)] -> xpath: //span[contains(text(),'My Account')]]]]>
+    </line>
+    <line>
+      <![CDATA[verify textProxy element for: DefaultElementLocator 'By.xpath: //h2[contains(text(),'Returning Customer')]']]>
+    </line>
+    <line>
+      <![CDATA[Click to see screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viral\IdeaProjects\tutorialninja-pagefactory/test-output/html/verifyUserShouldNavigateToRegisterPageSuccessfullyWed_Dec_14_00_16_10_GMT_2022.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target = "_blank" href=C:\Users\viral\IdeaProjects\tutorialninja-pagefactory/test-output/html/verifyUserShouldNavigateToRegisterPageSuccessfullyWed_Dec_14_00_16_10_GMT_2022.jpg><img src=C:\Users\viral\IdeaProjects\tutorialninja-pagefactory/test-output/html/verifyUserShouldNavigateToRegisterPageSuccessfullyWed_Dec_14_00_16_10_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="sanity suit" duration-ms="96183" started-at="2022-12-14T00:14:34 GMT" finished-at="2022-12-14T00:16:10 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="HomePageTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testuit.HomePageTest@1f021e6c]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" class="com.tutorialsninja.demo.testuit.HomePageTest"/>
+        <method signature="LaptopsAndNotebooksPageTest.verifyProductsPriceDisplayHighToLowSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testuit.LaptopsAndNotebooksPageTest@103f852]" name="verifyProductsPriceDisplayHighToLowSuccessfully" class="com.tutorialsninja.demo.testuit.LaptopsAndNotebooksPageTest"/>
+        <method signature="MyAccountTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testuit.MyAccountTest@587c290d]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.tutorialsninja.demo.testuit.MyAccountTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="HomePageTest.verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testuit.HomePageTest@1f021e6c]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" class="com.tutorialsninja.demo.testuit.HomePageTest"/>
+        <method signature="LaptopsAndNotebooksPageTest.verifyProductsPriceDisplayHighToLowSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testuit.LaptopsAndNotebooksPageTest@103f852]" name="verifyProductsPriceDisplayHighToLowSuccessfully" class="com.tutorialsninja.demo.testuit.LaptopsAndNotebooksPageTest"/>
+        <method signature="MyAccountTest.verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testuit.MyAccountTest@587c290d]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" class="com.tutorialsninja.demo.testuit.MyAccountTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="sanity Test" duration-ms="96183" started-at="2022-12-14T00:14:34 GMT" finished-at="2022-12-14T00:16:10 GMT">
+      <class name="com.tutorialsninja.demo.testuit.MyAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialsninja.demo.testuit.MyAccountTest@587c290d]" name="setUp" is-config="true" duration-ms="2773" started-at="2022-12-14T00:14:46 GMT" finished-at="2022-12-14T00:14:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.tutorialsninja.demo.testuit.MyAccountTest@587c290d]" name="inIt" is-config="true" duration-ms="3" started-at="2022-12-14T00:14:48 GMT" finished-at="2022-12-14T00:14:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="FAIL" signature="verifyUserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testuit.MyAccountTest@587c290d]" name="verifyUserShouldNavigateToRegisterPageSuccessfully" duration-ms="80953" started-at="2022-12-14T00:14:48 GMT" finished-at="2022-12-14T00:16:09 GMT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Returning Customer')]"}
+  (Session info: chrome=108.0.5359.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c17003bbb2b685407522537a3909bcb1, findElement {using=xpath, value=//h2[contains(text(),'Returning Customer')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\viral\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54598}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54598/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c17003bbb2b685407522537a3909bcb1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Returning Customer')]"}
+  (Session info: chrome=108.0.5359.99)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c17003bbb2b685407522537a3909bcb1, findElement {using=xpath, value=//h2[contains(text(),'Returning Customer')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\viral\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54598}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54598/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c17003bbb2b685407522537a3909bcb1
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy15.getText(Unknown Source)
+at com.tutorialsninja.demo.utility.Utility.getTextFromElement(Utility.java:62)
+at com.tutorialsninja.demo.pages.MyAccountPage.verifyRegisterPage(MyAccountPage.java:61)
+at com.tutorialsninja.demo.testuit.MyAccountTest.verifyUserShouldNavigateToRegisterPageSuccessfully(MyAccountTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[click on my account[[ChromeDriver: chrome on WINDOWS (c17003bbb2b685407522537a3909bcb1)] -> xpath: //span[contains(text(),'My Account')]]]]>
+            </line>
+            <line>
+              <![CDATA[verify textProxy element for: DefaultElementLocator 'By.xpath: //h2[contains(text(),'Returning Customer')]']]>
+            </line>
+            <line>
+              <![CDATA[Click to see screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viral\IdeaProjects\tutorialninja-pagefactory/test-output/html/verifyUserShouldNavigateToRegisterPageSuccessfullyWed_Dec_14_00_16_10_GMT_2022.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target = "_blank" href=C:\Users\viral\IdeaProjects\tutorialninja-pagefactory/test-output/html/verifyUserShouldNavigateToRegisterPageSuccessfullyWed_Dec_14_00_16_10_GMT_2022.jpg><img src=C:\Users\viral\IdeaProjects\tutorialninja-pagefactory/test-output/html/verifyUserShouldNavigateToRegisterPageSuccessfullyWed_Dec_14_00_16_10_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToRegisterPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialsninja.demo.testuit.MyAccountTest@587c290d]" name="tearDown" is-config="true" duration-ms="744" started-at="2022-12-14T00:16:10 GMT" finished-at="2022-12-14T00:16:10 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.demo.testuit.MyAccountTest -->
+      <class name="com.tutorialsninja.demo.testuit.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialsninja.demo.testuit.HomePageTest@1f021e6c]" name="setUp" is-config="true" duration-ms="4547" started-at="2022-12-14T00:14:34 GMT" finished-at="2022-12-14T00:14:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:com.tutorialsninja.demo.testuit.HomePageTest@1f021e6c]" name="inIT" is-config="true" duration-ms="68" started-at="2022-12-14T00:14:39 GMT" finished-at="2022-12-14T00:14:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToDesktopsPageSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testuit.HomePageTest@1f021e6c]" name="verifyUserShouldNavigateToDesktopsPageSuccessfully" duration-ms="961" started-at="2022-12-14T00:14:39 GMT" finished-at="2022-12-14T00:14:40 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[mouse hover and click on desktop[[ChromeDriver: chrome on WINDOWS (e827fcaa074c7e423519f610fb8a178d)] -> link text: Desktops]]]>
+            </line>
+            <line>
+              <![CDATA[verify desktop text[[ChromeDriver: chrome on WINDOWS (e827fcaa074c7e423519f610fb8a178d)] -> xpath: //h2[contains(text(),'Desktops')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToDesktopsPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialsninja.demo.testuit.HomePageTest@1f021e6c]" name="tearDown" is-config="true" duration-ms="713" started-at="2022-12-14T00:14:40 GMT" finished-at="2022-12-14T00:14:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.demo.testuit.HomePageTest -->
+      <class name="com.tutorialsninja.demo.testuit.LaptopsAndNotebooksPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialsninja.demo.testuit.LaptopsAndNotebooksPageTest@103f852]" name="setUp" is-config="true" duration-ms="2814" started-at="2022-12-14T00:14:41 GMT" finished-at="2022-12-14T00:14:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIT()[pri:0, instance:com.tutorialsninja.demo.testuit.LaptopsAndNotebooksPageTest@103f852]" name="inIT" is-config="true" duration-ms="7" started-at="2022-12-14T00:14:44 GMT" finished-at="2022-12-14T00:14:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIT -->
+        <test-method status="PASS" signature="verifyProductsPriceDisplayHighToLowSuccessfully()[pri:0, instance:com.tutorialsninja.demo.testuit.LaptopsAndNotebooksPageTest@103f852]" name="verifyProductsPriceDisplayHighToLowSuccessfully" duration-ms="1354" started-at="2022-12-14T00:14:44 GMT" finished-at="2022-12-14T00:14:45 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[laptop and notebooks[[ChromeDriver: chrome on WINDOWS (732d17322df46f6f97ac8833087a8d00)] -> link text: Laptops & Notebooks]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductsPriceDisplayHighToLowSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tutorialsninja.demo.testuit.LaptopsAndNotebooksPageTest@103f852]" name="tearDown" is-config="true" duration-ms="717" started-at="2022-12-14T00:14:45 GMT" finished-at="2022-12-14T00:14:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.demo.testuit.LaptopsAndNotebooksPageTest -->
+    </test> <!-- sanity Test -->
+  </suite> <!-- sanity suit -->
+</testng-results>
